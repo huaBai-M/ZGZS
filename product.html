@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="GB2312">
+    <link rel="stylesheet" href="css/base_c.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="lib/jQuery/jquery1.42.min.js"></script>
+    <script src="lib/jQuery/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="lib/common.js"></script>
+    <title>首页</title>
+</head>
+<body>
+<!--首页内容-->
+<!--头部-->
+<div class="header">
+    <div class="w">
+        <a href="#" class="log"><img src="images/index_03.png" alt=""></a>
+        <span class="line"></span>
+        <div class="fast">
+            <p>专注实体店整店形象设计</p>
+            <p>专卖店道具制作/店铺装修/展厅道具 ── 整装一站式服务</p>
+        </div>
+        <div class="header_right">
+            <p>7*24小时服务热线</p>
+            <p>400-029-3980</p>
+            <p><img src="images/index_06.png" alt=""></p>
+        </div>
+    </div>
+</div>
+<!--导航-->
+<div class="nav">
+    <div class="w">
+        <ul>
+            <li class="fir"><a href="#">首页</a>
+                <ul>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fir"><a href="#">首页首页</a>
+                <ul>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fir"><a href="#">首页</a>
+                <ul>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fir"><a href="#">首页</a>
+                <ul>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fir"><a href="#">首页</a>
+                <ul>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fir"><a href="#">首页首页</a>
+                <ul>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fir"><a href="#">首页首页</a>
+                <ul>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fir"><a href="#">首页</a>
+                <ul>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                    <li><a href="[selflist.path]">[selflist.typename(length='12')]</a>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+<!--banner-->
+<div class="banner_about" style="background:url(images/pro_banner_02.png);">
+</div>
+<div class="path">
+    <div class="w">
+        您的当前位置：<a href="#">首页 > 走进我们</a>
+    </div>
+</div>
+<div class="title_top">
+    <div class="w">
+        <p>产品中心</p>
+        <p>PRODUCT</p>
+    </div>
+</div>
+<div class="typelist clearFix">
+    <div class="w">
+        <ul class="clearFix">
+            <li>
+                <a href="#">关于我们</a>
+                <div class="sub_pro">
+                    <a href="[selflist.arcurl]" class="subej" target="">[selflist.typename (length='10')]</a>
+                    <a href="[selflist.arcurl]" class="subej" target="">[selflist.typename (length='10')]</a>
+                </div>
+            </li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+
+    </div>
+    <script>
+        $(function () {
+            var leftW= $('.typelist ul').width()*0.3;
+            $('.typelist ul').css('marginLeft',leftW);
+            $('.typelist li').mouseenter(function () {
+                $(this).find('.sub_pro').css('display',"block");
+            })
+                .mouseleave(function () {
+                    $(this).find('.sub_pro').css('display',"none");
+                })
+        })
+    </script>
+</div>
+<div class="pro_lists clearFix">
+    <div class="w">
+        <div class="lists_pro clearFix">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/index_78.png" alt="">
+                    </a>
+                    <div class="name">
+                        <a href="#">
+                            名字名字名字名字名字名字名字名字
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/index_78.png" alt="">
+                    </a>
+                    <div class="name">
+                        <a href="#">
+                            名字名字名字名字名字名字名字名字
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/index_78.png" alt="">
+                    </a>
+                    <div class="name">
+                        <a href="#">
+                            名字名字名字名字名字名字名字名字
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/index_78.png" alt="">
+                    </a>
+                    <div class="name">
+                        <a href="#">
+                            名字名字名字名字名字名字名字名字
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/index_78.png" alt="">
+                    </a>
+                    <div class="name">
+                        <a href="#">
+                            名字名字名字名字名字名字名字名字
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="page clearFix">
+    <div class="w">
+        <ul class="pagelist">
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+        </ul>
+    </div>
+</div>
+<!--底部-->
+<div class="footer clearFix">
+    <div class="w">
+        <div class="footer_left clearFix">
+            <div class="lyb">
+                <div class="l_top">
+                    <img src="images/index_94.png" alt="">
+                    <div class="right_l">
+                        <div class="one">扫一扫二维码有惊喜</div>
+                        <div class="two">24</div>
+                        <div class="three">小时服务热线</div>
+                        <div class="four">0512-68017763</div>
+                    </div>
+                </div>
+                <div class="b_lyb">
+                    <script type="text/javascript" src="/admin/Inquiry/Message.js"></script>
+                    <div id="hide" style="display:none;">
+                        <div id="run">
+                            <center>
+                                <img src="/template/263/images/run.gif" />正在发送留言
+                            </center>
+                        </div>
+                    </div>
+                    <div id="tc">
+                        <div id="tc-1">
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>
+                        <form action="save.asp?action=add" method="post">
+                            <div id="tc-2">
+
+                                <input value="姓名" style="font-size:0.6rem; padding-left:0.5rem;color:#999999;border:1px solid #ccc;width:100%;height:40px;margin-bottom:10px;" id="msgLeft_senderName" onblur="if(this.value==''){this.value='请输入您的名称';this.style.color = '#999999'}" onfocus="if(this.value=='请输入您的名称'){this.value='';this.style.color = 'black'}" /><br />
+                                <input value="电话" style="font-size:0.6rem; padding-left:0.5rem; color:#999999;border:1px solid #ccc;width:100%;height:40px;margin-bottom:10px;" id="msgLeft_telephone" onblur="if(this.value==''){this.value='请输入您的联系方式';this.style.color = '#999999'}" onfocus="if(this.value=='请输入您的联系方式'){this.value='';this.style.color = 'black'}" /><br />
+                                <input value="邮箱" style="font-size:0.6rem; padding-left:0.5rem; color:#999999;border:1px solid #ccc;width:100%;margin-bottom:10px;height:40px;" id="msgLeft_email" onblur="if(this.value==''){this.value='请输入您的邮箱';this.style.color = '#999999'}" onfocus="if(this.value=='请输入您的邮箱'){this.value='';this.style.color = 'black'}" />
+                                <div class="msgLeft_Txtbox_div">
+                                    <textarea style="width: 100%;height: 80px;padding-left:0.5rem;padding-top:10px;border:1px solid #ccc;color:#999999;margin-bottom: 8px;" id="msgLeft_Txtbox" rows="7" cols="25" onblur="if(this.value==''){this.value='需求';this.style.color = '#999999'}" onfocus="if(this.value=='在此留言，我们会及时联系您'){this.value='';this.style.color = 'black'}">需求</textarea>
+                                </div>
+                                <div id="msgLeft_Btn_div" style="margin-top:0;">
+                                    <img id="msgLeft_Btn" onclick="javascript:sendMsg()" src="images/lyb_add.png" style=" width:100%;height: 30px;" />
+                                </div>
+
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right_footer">
+            <div class="nav_f">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">关于我们</a></li>
+                </ul>
+            </div>
+            <div class="concat_s">
+                <img src="images/footer_1_03.png" alt="">
+                <p>联系电话：400-024-1877</p>
+                <p>工程项目：13940137517 王经理</p>
+                <p>公司地址：辽宁省沈阳市大东区津桥路7-1-1-23-9号</p>
+                <p>公司邮箱：sytygc@126.com</p>
+                <img src="images/footer_1_03.png" alt="">
+            </div>
+            <div class="bottom_fo">
+                备案号：ABCDEFGH 信融科技网络科技有限公司公司版权所有 JS通用代码调用  技术支持：信融科技
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
